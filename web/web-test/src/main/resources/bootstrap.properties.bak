@@ -1,0 +1,3 @@
+spring.cloud.nacos.config.server-addr=192.168.200.128:8848
+spring.cloud.nacos.discovery.namespace=public
+spring.application.name=web-test

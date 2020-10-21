@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.gmall.product.mapper.SpuSaleAttrMapper">
+    <select id="getSpuSaleAttrListCheckBySku" resultMap="sdwf">
+       SELECT
+            ssa.id as ass_id ,ssav.id as ssav_id ,ssa.*,ssav.*,if(skav.sku_id,'1','0') as isChecked
+        FROM
+            spu_sale_attr ssa
+          INNER JOIN
+            spu_sale_attr_value ssav
+        on
+            ssa.spu_id = ssav.spu_id
+        AND ssa.base_sale_attr_id = ssav.base_sale_attr_id
+        and ssa.spu_id = #{spuId}
+          left JOIN
+            sku_sale_attr_value skav
+        on skav.sale_attr_value_id = ssav.id
+        and skav.sku_id = #{skuId}
+        order by ssav.base_sale_attr_id , ssav.id
+    </select>
+    <resultMap id="sdwf" type="com.atguigu.gmall.model.product.SpuSaleAttr" autoMapping="true">
+        <id column="ass_id" property="id"></id>
+        <collection property="spuSaleAttrValueList" ofType="com.atguigu.gmall.model.product.SpuSaleAttrValue"
+                    autoMapping="true">
+            <id column="ssav_id" property="id"></id>
+        </collection>
+    </resultMap>
+</mapper>

@@ -1,0 +1,9 @@
+com\atguigu\gmall\test\config\MyConfigration.class
+com\atguigu\gmall\test\config\ConfigTest.class
+com\atguigu\gmall\test\config\RedisConfig$1.class
+com\atguigu\gmall\test\config\ConfigTest$Myclass.class
+com\atguigu\gmall\test\config\Swagger2Config.class
+com\atguigu\gmall\test\TestApplication.class
+com\atguigu\gmall\test\controller\TestController.class
+com\atguigu\gmall\test\config\RedisConfig.class
+com\atguigu\gmall\test\config\RedissonConfig.class

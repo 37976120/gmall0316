@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .red {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .green {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<h2>TEST</h2>
+从model中取值<input type="text" th:value="${value}"><br>
+<input type="text" th:each="attr:${list}" th:value="${attr}"><br>
+<div th:each="li:${list}">
+    <input type="text" th:value="${li}">
+</div>
+<br>
+<h5 th:if="${1==1}">为真标签才存在</h5><br>
+<div th:class="${1==0}?red:green"></div>
+与Js的交互
+<a th:href="'javascript:a(\''+${value}+'\');'">点我</a><br>
+内嵌页：
+<div th:include="testInner::a"></div>
+<div th:include="testInner::b"></div>
+<p th:utext="${gname}">color</p>
+<script language="JavaScript">
+    function a(num) {
+        alert(num);
+    }
+</script>
+</body>
+</html>

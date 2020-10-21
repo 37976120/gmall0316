@@ -1,0 +1,12 @@
+com\atguigu\gmall\commom\util\AuthContextHolder.class
+com\atguigu\gmall\commom\util\HttpClientUtil.class
+com\atguigu\gmall\commom\constant\RedisConst.class
+com\atguigu\gmall\commom\config\FeignConfig$1.class
+com\atguigu\gmall\commom\util\DateUtil.class
+com\atguigu\gmall\commom\config\FeignConfig.class
+com\atguigu\gmall\commom\util\HttpClient.class
+com\atguigu\gmall\commom\result\ResultCodeEnum.class
+com\atguigu\gmall\commom\config\FeignConfig$PhpMappingJackson2HttpMessageConverter.class
+com\atguigu\gmall\commom\result\Result.class
+com\atguigu\gmall\commom\util\HttpClient$1.class
+com\atguigu\gmall\commom\util\MD5.class

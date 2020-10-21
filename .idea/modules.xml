@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/common/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gmall0316.iml" filepath="$PROJECT_DIR$/.idea/gmall0316.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/rabbit-util/rabbit-util.iml" filepath="$PROJECT_DIR$/common/rabbit-util/rabbit-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-gateway/server-gateway.iml" filepath="$PROJECT_DIR$/server-gateway/server-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-cart/service-cart.iml" filepath="$PROJECT_DIR$/service/service-cart/service-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-cart-client/service-cart-client.iml" filepath="$PROJECT_DIR$/service-client/service-cart-client/service-cart-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-client.iml" filepath="$PROJECT_DIR$/service-client/service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-item/service-item.iml" filepath="$PROJECT_DIR$/service/service-item/service-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-item-client/service-item-client.iml" filepath="$PROJECT_DIR$/service-client/service-item-client/service-item-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-list/service-list.iml" filepath="$PROJECT_DIR$/service/service-list/service-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-list-client/service-list-client.iml" filepath="$PROJECT_DIR$/service-client/service-list-client/service-list-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-mq/service-mq.iml" filepath="$PROJECT_DIR$/service/service-mq/service-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-order/service-order.iml" filepath="$PROJECT_DIR$/service/service-order/service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-order-client/service-order-client.iml" filepath="$PROJECT_DIR$/service-client/service-order-client/service-order-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-pay/service-pay.iml" filepath="$PROJECT_DIR$/service/service-pay/service-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-product/service-product.iml" filepath="$PROJECT_DIR$/service/service-product/service-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-product-client/service-product-client.iml" filepath="$PROJECT_DIR$/service-client/service-product-client/service-product-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-seckill/service-seckill.iml" filepath="$PROJECT_DIR$/service/service-seckill/service-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-seckill-client/service-seckill-client.iml" filepath="$PROJECT_DIR$/service-client/service-seckill-client/service-seckill-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-user/service-user.iml" filepath="$PROJECT_DIR$/service/service-user/service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-client/service-user-client/service-user-client.iml" filepath="$PROJECT_DIR$/service-client/service-user-client/service-user-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/common/service-util/service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ware-manage/ware-manage.iml" filepath="$PROJECT_DIR$/ware-manage/ware-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web-all/web-all.iml" filepath="$PROJECT_DIR$/web/web-all/web-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web-test/web-test.iml" filepath="$PROJECT_DIR$/web/web-test/web-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/web-util/web-util.iml" filepath="$PROJECT_DIR$/common/web-util/web-util.iml" />
+    </modules>
+  </component>
+</project>
